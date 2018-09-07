@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TechoOrganize</string>
+    <string name="action_setting">Help</string>
+    <string-array name="PertanyaanKu">
+        <item>Jawaban ku yang pertama</item>
+    </string-array>
+</resources>

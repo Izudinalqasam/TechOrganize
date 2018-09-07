@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="600dp"
+            android:scaleType="centerCrop"
+            android:layout_height="500dp"
+            android:src="@drawable/help_screen"
+            android:id="@+id/gambarBantuan"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_clear_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#fff"
+            android:layout_marginTop="4dp"
+            android:id="@+id/closeButton"/>
+</RelativeLayout>

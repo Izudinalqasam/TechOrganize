@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.techoorganize.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_main"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_earth_hour"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="PSDM"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Tppsdm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah Kemampuan yang dia miliki dibidang komputer ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/ppsdm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/Jppsdm11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tppsdm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="bagaimana cara dia berkomuniasi sehari-hari"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/ppsdm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tppsdm3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/ppsdm3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tppsdm4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/ppsdm4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jppsdm43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Humas"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Thumas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/humas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jhumas11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jhumas12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jhumas13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Thumas2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/humas2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jhumas21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jhumas22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jhumas23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Thumas3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/humas3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jhumas31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jhumas32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jhumas33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Media"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Tmedia1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/media1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jmedia11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jmedia12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jmedia13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tmedia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/media2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jmedia21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jmedia22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jmedia23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tmedia3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/media3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jmedia31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jmedia32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jmedia33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Dokumen"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Tdokumen1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/dokumen1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tdokumen2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/dokumen2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tdokumen3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/dokumen3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jdokumen33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Riset"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Triset1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/riset1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jriset11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jriset12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jriset13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Triset2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/riset2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jriset21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jriset22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jriset23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Triset3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/riset3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jriset31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jriset32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jriset33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Logistik"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Tlogika1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/logika1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jlogika11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jlogika12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jlogika13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tlogika2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/logika2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jlogika21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jlogika22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jlogika23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Advokasi dan Pendanaan"/>
+
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Tadpen1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/adpen1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jadpen11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jadpen12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jadpen13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tadpen2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/adpen2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jadpen21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jadpen22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jadpen23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tadpen3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/adpen3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jadpen31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jadpen32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jadpen33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Online"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#38717b"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Tonline1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/online1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jonline11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jonline12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jonline13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tonline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/online2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jonline21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jonline22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jonline23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Tonline3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Apakah dia mempuyai media sosial dan seberapa sering dia memainkannya ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioGroup
+                    android:id="@+id/online3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/Jonline31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jonline32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                    <RadioButton
+                        android:id="@+id/Jonline33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tegar"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+                </RadioGroup>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/tbg_tombol"
+                    android:onClick="submitAja"
+                    android:text="Submit "/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
